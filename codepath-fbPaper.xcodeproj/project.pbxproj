@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE9DCE831956610B00FDD6E6 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9DCE811956610B00FDD6E6 /* mainViewController.m */; };
+		FE9DCE841956610B00FDD6E6 /* mainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9DCE821956610B00FDD6E6 /* mainViewController.xib */; };
 		FEC82A3919561C1D003B5439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC82A3819561C1D003B5439 /* Foundation.framework */; };
 		FEC82A3B19561C1D003B5439 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC82A3A19561C1D003B5439 /* CoreGraphics.framework */; };
 		FEC82A3D19561C1D003B5439 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC82A3C19561C1D003B5439 /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE9DCE801956610B00FDD6E6 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		FE9DCE811956610B00FDD6E6 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		FE9DCE821956610B00FDD6E6 /* mainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainViewController.xib; sourceTree = "<group>"; };
 		FEC82A3519561C1D003B5439 /* codepath-fbPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codepath-fbPaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC82A3819561C1D003B5439 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEC82A3A19561C1D003B5439 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +116,9 @@
 				FEC82A4819561C1D003B5439 /* AppDelegate.m */,
 				FEC82A4A19561C1D003B5439 /* Images.xcassets */,
 				FEC82A3F19561C1D003B5439 /* Supporting Files */,
+				FE9DCE801956610B00FDD6E6 /* mainViewController.h */,
+				FE9DCE811956610B00FDD6E6 /* mainViewController.m */,
+				FE9DCE821956610B00FDD6E6 /* mainViewController.xib */,
 			);
 			path = "codepath-fbPaper";
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				FEC82A4319561C1D003B5439 /* InfoPlist.strings in Resources */,
 				FEC82A4B19561C1D003B5439 /* Images.xcassets in Resources */,
+				FE9DCE841956610B00FDD6E6 /* mainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9DCE831956610B00FDD6E6 /* mainViewController.m in Sources */,
 				FEC82A4919561C1D003B5439 /* AppDelegate.m in Sources */,
 				FEC82A4519561C1D003B5439 /* main.m in Sources */,
 			);
@@ -437,6 +447,7 @@
 				FEC82A6319561C1E003B5439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEC82A6419561C1E003B5439 /* Build configuration list for PBXNativeTarget "codepath-fbPaperTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				FEC82A6619561C1E003B5439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
