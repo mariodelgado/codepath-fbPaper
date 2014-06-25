@@ -91,7 +91,7 @@ float oldX;
     //this *should* add the imageView to the scrollView
     //[self.scrollView addSubView:aImageView];
     
-    [UIView animateWithDuration:0.3
+    [UIView animateWithDuration:0.5
                           delay:0
          usingSpringWithDamping:0.7
           initialSpringVelocity:0
