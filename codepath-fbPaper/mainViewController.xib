@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="mainViewController">
             <connections>
+                <outlet property="aImageView" destination="GgH-ZW-rDd" id="weZ-a7-Skp"/>
                 <outlet property="gradientView" destination="2l4-AJ-8az" id="x1H-eu-woe"/>
                 <outlet property="headlineView" destination="ldh-14-LeV" id="qWn-rf-2rO"/>
                 <outlet property="menuView" destination="Jtv-hg-uhZ" id="nCF-3d-aRD"/>
@@ -44,6 +45,10 @@
                             <rect key="frame" x="0.0" y="0.0" width="1446" height="254"/>
                             <gestureRecognizers/>
                         </imageView>
+                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newcard" id="GgH-ZW-rDd">
+                            <rect key="frame" x="-146" y="0.0" width="146" height="254"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
                     </subviews>
                     <gestureRecognizers/>
                     <connections>
@@ -71,6 +76,7 @@
         <image name="gradient" width="320" height="568"/>
         <image name="headline1" width="320" height="568"/>
         <image name="menu" width="320" height="568"/>
+        <image name="newcard" width="145" height="253"/>
         <image name="news" width="1444" height="253"/>
     </resources>
 </document>
